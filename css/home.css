@@ -1,0 +1,161 @@
+
+/*
+blanc
+bleu - #96d8e6
+pastel - #edb38b
+bleu foncé: #3aa5e7
+bleu clair: #afdfe9
+
+*/
+
+
+body {
+    margin: 0;
+    background-image: url("../img/bgimg.jpg");
+    font-family: 'Gamja Flower', cursive;
+}
+
+
+
+header{
+    border-bottom: 2px #3aa5e7 solid;
+    font-family: KidPlayon, sans-serif;
+    background-color: #afdfe9;
+    
+    height: 150px;
+    color: #3aa5e7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.headerLeft img {
+    height: 100%;
+}
+
+.headerText{
+    font-family: KidPlayon;
+    color: black;
+    font-family: KidPlayon;
+    align-self: center;
+    font-size: 5em;
+}
+
+
+
+.headerRight{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.clock{
+    font-size: 1.5em;
+    font-family: 'Comic sans Ms', serif;
+    margin-bottom: 20px;
+}
+
+
+
+.menu{
+    color:#3aa5e7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.elementsMenu{
+    align-items: center; 
+}
+
+.elementsMenu a {
+    text-decoration: none;
+    color: inherit   
+
+}
+
+.main {
+    margin-right: 50px;
+    margin-left: 50px;
+
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;    
+    border:1px #3aa5e7 dashed;  
+}
+
+main p {
+    margin: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main form{
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main form input{
+    margin: 10px;
+    align-self: center;
+}
+
+.main label{
+    align-self: center;
+    margin: 5px;
+}
+
+.id{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#firstName, #name, #email{
+    width: 15%;
+}
+
+#message{
+    height: 100px;
+}
+#submit{
+    width: 5%;
+    align-self: center;
+    border-radius: 10px;
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 2px #3aa5e7 solid;
+    padding: 10px;
+    background-color: #afdfe9;
+
+}
+
+footer span{
+    margin: 5px;
+    color: black; 
+    font-size: 2em;
+}
+
+
+
+
+@font-face{
+    font-family: KidPlayon;
+    src : url("../src/KidPlayon.woff");
+}
